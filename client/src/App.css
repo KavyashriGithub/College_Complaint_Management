@@ -1,0 +1,229 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;1,100;1,400;1,700&display=swap');
+
+*{
+  font-family: 'Roboto', sans-serif;
+}
+table, th, tr, td {
+  padding: 5px;
+  border: 1px solid black;
+}
+.Gtable{
+  margin: 2%;
+}
+.hide{
+  visibility: hidden;
+} */
+
+
+
+
+/* GOOGLE FONT */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap');
+
+*{
+  margin:0;
+  padding:0;
+  box-sizing:border-box;
+  font-family:'Poppins', sans-serif;
+  
+}
+
+body{
+  background: linear-gradient(120deg,#f4f6f8,#2e3643);
+  min-height:100vh;
+
+  /* background-image: url("./images/STFrancispic.jpg"); 
+  background-size: 100vh,100vw;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 100vh;
+margin-bottom: 1px; */
+}
+
+/* NAVBAR */
+.navbar{
+  padding:15px 40px;
+  box-shadow:0 4px 10px rgba(0,0,0,0.1);
+}
+
+.navbar-brand{
+  font-size:22px;
+  font-weight:600;
+}
+
+.navbar-nav .nav-link{
+  font-size:16px;
+  margin-left:15px;
+  transition:0.3s;
+}
+
+.navbar-nav .nav-link:hover{
+  color:#ffc107 !important;
+}
+
+/* PAGE TITLE */
+h1,h2,h3{
+  font-weight:600;
+}
+
+/* CARD STYLE */
+.jumbotron{
+  background:rgb(115, 187, 198);
+  border-radius:10px;
+  padding:30px;
+  box-shadow:0 5px 15px rgba(0,0,0,0.1);
+}
+#text-center{
+  color: aliceblue;
+}
+/* FORM INPUTS */
+input,
+select,
+textarea{
+  padding:10px;
+  border-radius:6px;
+  border:1px solid #ccc;
+  outline:none;
+  transition:0.3s;
+}
+
+input:focus,
+textarea:focus,
+select:focus{
+  border-color:#007bff;
+  box-shadow:0 0 4px rgba(0,123,255,0.4);
+}
+
+/* BUTTONS */
+.btn{
+  border-radius:25px;
+  padding:8px 20px;
+  font-weight:500;
+}
+
+.btn-outline-primary:hover{
+  background:#007bff;
+  color:white;
+}
+
+.btn-outline-warning:hover{
+  background:#ffc107;
+  color:black;
+}
+
+/* TABLE DESIGN */
+table{
+  width:95%;
+  margin:auto;
+  border-collapse:collapse;
+  background:rgb(18, 17, 17);
+  box-shadow:0 5px 15px rgba(0,0,0,0.1);
+  border-radius:10px;
+  overflow:hidden;
+}
+
+th{
+  background:black;
+  color:white;
+  padding:12px;
+}
+
+td{
+  padding:10px;
+}
+
+
+
+tr:hover{
+  background:#007bff;
+}
+
+/* HOME PAGE */
+
+
+.maintext{
+  /* margin-top:10px;
+  font-size:28px;
+  font-weight:500;
+  color:#333; */
+   max-width: 100vw;
+  font-size: 18px;
+  color: rgb(21, 21, 21);
+  /* background: rgba(24, 24, 24, 0.927); */
+  /* /* padding: 20px; */
+  /* border-radius: 10px;  */
+  margin-top: auto;
+}
+
+.col-md-5{
+    display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  height: 90vh;
+  width: 100%;
+  max-width: 100%;
+  flex: 0% 0% 100%;
+  padding: 0%;
+}
+.col-md-5 img{
+  width: 100%;
+  height: 450px;
+  object-fit: cover;
+  display: block;
+}
+
+
+/* LOGIN + SIGNUP */
+.signup-content{
+  background:white;
+  padding:30px;
+  border-radius:12px;
+  box-shadow:0 5px 20px rgba(0,0,0,0.1);
+}
+
+/* CONTACT FOOTER */
+.contact_info{
+  margin-top:50px;
+  padding:20px 0;
+}
+
+.contact_info_item{
+  text-align:center;
+}
+
+/* ADMIN TABLE BUTTONS */
+.update{
+  margin-top:15px;
+}
+
+/* RESPONSIVE */
+@media(max-width:768px){
+
+  table{
+    font-size:12px;
+  }
+
+  .navbar-brand{
+    font-size:18px;
+  }
+
+  .maintext{
+    font-size:20px;
+    margin:80px 20px;
+  }
+
+}
+
+/* COMPLAINT PAGE BACKGROUND */
+.contact_form{
+  min-height: 100vh;
+  /* background-image: url("https://images.unsplash.com/photo-1523240795612-9a054b0db644"); */
+  background-image: url("https://www.eduska.com/assets/user_photo/b87473cb2f61a1a1c14ffd1964cb7eec.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  padding-top: 50px;
+}
+
